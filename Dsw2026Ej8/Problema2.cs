@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class Problema2
+    public class Problema2
     {
         public string CrearResumenVenta(long productCode, string producDescription, int quantity, decimal unitPrice)
         {

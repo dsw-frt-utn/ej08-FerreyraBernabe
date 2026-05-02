@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class Problema6
+    public class Problema6
     {
         public string NormalizarCodigoProducto(string code) 
         {

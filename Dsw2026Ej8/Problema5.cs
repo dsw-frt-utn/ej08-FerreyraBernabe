@@ -5,26 +5,26 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class Problema5
+    public class Problema5
     {
         public decimal ObtenerImporteFinal(Sale sale) 
         {
             return sale.CalculateTotal();
         }
     }
-    internal class Sale 
+    public class Sale 
     {
         decimal total;
         public virtual decimal CalculateTotal() { return total;}
     }
-    internal class  RetailSale : Sale
+    public class  RetailSale : Sale
     {
         public override decimal CalculateTotal()
         {
             return base.CalculateTotal();
         }
     }
-    internal class WholeSale : Sale
+    public class WholeSale : Sale
     {
         decimal discount = 0.1M;
         public override decimal CalculateTotal()

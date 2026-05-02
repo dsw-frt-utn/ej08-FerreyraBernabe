@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Dsw2026Ej8
 {
-    internal class Problema3
+    public class Problema3
     {
         public string CompararCopias(int originalValue, Product product)
         {
@@ -17,7 +17,7 @@ namespace Dsw2026Ej8
             return $"{originalValue}-{valueCopy}-{productCopy.GetDescription()}";
         }
     }
-    internal class Product 
+    public class Product 
     {
         private string _description;
 
