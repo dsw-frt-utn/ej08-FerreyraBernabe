@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="Dsw2026Ej8/Dsw2026Ej8.csproj" />
+  <Project Path="Dsw2026Ej8.test/Dsw2026Ej8.test.csproj" Id="44341362-9e04-4f94-a829-bf97d9a8baef" />
+  <Project Path="Dsw2026Ej8/Dsw2026Ej8.app.csproj" />
 </Solution>
